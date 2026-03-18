@@ -10,7 +10,7 @@ namespace Tests
         {
             var calc = new Calculator();
             var result = calc.Add(2, 3);
-            Assert.Equal(5, result);
+            Assert.Equal(6, result); // ❌ Ошибка: 2+3=5, а не 6
         }
     }
 }
